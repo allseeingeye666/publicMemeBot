@@ -30,7 +30,7 @@ def SentenceGenerate():
   articleInt = random.randint(0,len(articles))
   sentenceArr[4] = articles[articleInt]
   str(sentenceArr[4])
-  propositionInt = random.randint(0,len(propositions))
+  nounInt = random.randint(0,len(nouns))
   sentenceArr[5] = propositions[propositionInt]
   str(sentenceArr[5])
   
