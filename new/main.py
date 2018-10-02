@@ -12,7 +12,7 @@ def SentenceGenerate():
   '''
   articles = ["The","A","An"]
   nouns = ["NounExample1", "NounExample2"]
-  verbs = ["VerbExample1", "VerbExample2"]
+  verbs = ["spooked", "VerbExample2"]
   propositions = ["on", "in", "at", "since", "for", "ago", "before", "to", "past", "by"]
   
   articleInt = random.randint(0,len(articles))
